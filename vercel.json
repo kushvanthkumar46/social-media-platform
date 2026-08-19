@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/public/login.html" },
+    { "source": "/home", "destination": "/public/home.html" },
+    { "source": "/profile", "destination": "/public/profile.html" },
+    { "source": "/:path*", "destination": "/public/:path*" }
+  ]
+}

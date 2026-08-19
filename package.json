@@ -1,0 +1,17 @@
+{
+  "name": "social-media-app",
+  "version": "1.0.0",
+  "description": "Simple social media app with express backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "body-parser": "^1.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

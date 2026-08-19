@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | SocialApp</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <nav class="top-nav">
+        <h2>SocialApp</h2>
+        <div>
+          <a href="./home.html">Home</a>
+          <a href="./profile.html">Profile</a>
+        </div>
+      </nav>
+
+      <main class="profile-page">
+        <section class="card profile-card">
+          <img id="profileAvatar" src="" alt="Profile avatar" />
+          <h2 id="profileName"></h2>
+          <p id="profileBio"></p>
+          <button id="followBtn">Follow</button>
+          <p id="followCount"></p>
+        </section>
+
+        <section class="card">
+          <h3>Your Posts</h3>
+          <div id="profilePosts"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./profile.js"></script>
+  </body>
+</html>
